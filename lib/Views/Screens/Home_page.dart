@@ -38,30 +38,38 @@ class _Home_pageState extends State<Home_page> {
       body: Center(
         child: ListView.builder(
           itemCount: recipe.length,
-          itemBuilder: (context, i) => Card(
-            color: Colors.white,
-            margin: EdgeInsets.all(5),
+          itemBuilder: (context, i) => Container(
+            height: 800,
+            width: double.infinity,
+            margin: EdgeInsets.all(15),
             child: Column(
               children: [
                 Container(
-                  height: 200,
-                  width: 200,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: AssetImage("${recipe[i].images}".toString()),
-                    ),
+                  height: 300,
+                  width: double.infinity,
+                  child: Image.asset(
+                    "${recipe[i].images}",
+                    fit: BoxFit.fill,
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.only(top: 28.0),
+                  child: Text(
+                    "${recipe[i].name}",
+                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                   ),
                 ),
                 Center(
-                  child: ListTile(
-                    leading: Text("${recipe[i].name}"),
-                    subtitle: Text("${recipe[i].steps}"),
+                  child: Text(
+                    "${recipe[i].steps}",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                )
+                ),
               ],
             ),
           ),
         ),
+        // Image.asset("${recipe[i].images}"),
       ),
     );
   }
