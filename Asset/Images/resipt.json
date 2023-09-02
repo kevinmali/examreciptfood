@@ -1,0 +1,22 @@
+[
+  {
+    "name": "PavBhaji",
+    "steps": "Pav Bhaji is a native Maharashtrian dish made with an assortment of mashed vegetables, pan-fried on a large tawa and served with Pav toasted in butter. It is immensely popular all across the country because of its spicy and tangy zest. The generous dose of butter that is often used with freshly-cut onions and lemon juice tops the dish.",
+    "images" : "Asset/Images/imagespav.jpeg"
+  },
+  {
+    "name": "Fanky",
+    "steps": "CThere are many ways a frankie recipe can be made. Some folks like to wrap the sabzi/dry veggie curry in roti too and add some extra toppings like mayonnaise, cheese, paneer, sliced raw tomatoes, cucumber, lettuce and sometimes even pickles making a fusion veg frankie or wrap. I have already shared an equally delicious Paneer Kathi Roll and a Veg Roll recipe which you must give a try.",
+    "images" : "Asset/Images/imagesfannky.jpeg"
+  },
+  {
+    "name": "Rice",
+    "steps": "Bring broth to a low boil.\n Add curry powder and salt.\n Cook lentils for 20 minutes.\nAdd rice and simmer for 20 minutes.\nEnjoy!",
+    "images" : "Asset/Images/imagesrice.jpeg"
+  },
+  {
+    "name": "Pannir masala",
+    "steps": "i have posted quite a few paneer gravy recipes, but i keep getting this email to show some unique and exotic way to prepare a paneer curry. moreover, i keep getting this complaint that most of my curries are similar with no many changes. well, to be honest, there aren’t any significant differences but dhaba style preparation has always been unique. perhaps due to the setup of dhaba, the ingredients and the cooking way is significantly different.",
+    "images" : "Asset/Images/imagespanner.jpeg"
+  }
+]
